@@ -1,7 +1,6 @@
 using System.Text;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Profiling;
 
 namespace Ica.Utils.Profiling
 {
@@ -17,7 +16,6 @@ namespace Ica.Utils.Profiling
 
         void Awake()
         {
-            //TMPText = GetComponent<TextMeshProUGUI>();
             _sb = new StringBuilder(100);
         }
 
